@@ -12,4 +12,4 @@ Hey there! This is my practical project where I practiced data cleaning, filteri
 * **Looked at working hours:** Found the maximum hours per week someone works and counted how many "hard workers" share that peak schedule.
 
 ## How to use it:
-Just download the `adult_data_analysis.ipynb` notebook. If you want to rerun the code, make sure you have `pandas` and `numpy` installed, and place the `adult.csv` file in the same folder as the notebook.
+Just download the `adult_data_analysis.ipynb` notebook. If you want to rerun the code, make sure you have `pandas` and `numpy` installed, and place the `adult.csv` file in the same folder as the notebook https://www.kaggle.com/datasets/fatmagulkadioglu/adult-csv
