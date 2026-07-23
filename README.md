@@ -1,15 +1,13 @@
-# Adult Dataset — Data Analysis with Pandas
+# Demographic & Salary Analysis (Adult Census Dataset)
 
-Hey there! This is my practical project where I practiced data cleaning, filtering, and basic analysis using Pandas. I used the Adult dataset (often called the Census Income dataset) to answer a few interesting questions about people's demographics, education, and salaries.
+## Demographic and income analysis using Pandas/NumPy on Census data to uncover drivers of income levels and data consistency.
 
-## What I actually did here:
-* **Cleaned up the data:** The original dataset had a bunch of `?` symbols instead of missing values. I replaced them with NaNs and dropped those rows so they wouldn't mess up the statistics.
-* **Double-checked the data quality:** I wrote a quick sanity check to make sure that the text salary column (`<=50K` or `>50K`) actually matches the numeric income column. Everything looks correct!
-* **Analyzed demographics:** Calculated the gender breakdown, found the average age for men, and looked at how many people in the dataset are from Poland.
-* **Explored education and marital status vs. salary:**
-  * Checked if there are people making good money (`>50K`) without having a higher education degree.
-  * Compared the percentage of high earners among married and unmarried men (turns out, married men in this dataset tend to earn more on average).
-* **Looked at working hours:** Found the maximum hours per week someone works and counted how many "hard workers" share that peak schedule.
+## Key Analysis & Insights
+• Data Integrity: Handled missing values (? to NaN) and executed programmatic verification between salary brackets and numerical income data.
+• Income Drivers: Discovered 3,178 high earners (>$50K) without a higher education degree.
+• Demographic Patterns: Married men were 5x more likely to earn >$50K (44.8%) compared to unmarried men (8.8%).
+
+## Tech: Python, Pandas, NumPy, Google Colab
 
 ## How to use it:
 Just download the `adult_data_analysis.ipynb` notebook. If you want to rerun the code, make sure you have `pandas` and `numpy` installed, and place the `adult.csv` file in the same folder as the notebook https://www.kaggle.com/datasets/fatmagulkadioglu/adult-csv
